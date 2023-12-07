@@ -1,0 +1,129 @@
+/* General */
+:root {
+    --panelBg: rgb(47, 49, 52);
+    --darkBg: rgb(62, 64, 67);
+}
+hr {
+    margin: 0 0 4px 0;
+    border : 0;
+    height: 3px;
+    background-image: linear-gradient(to right, rgb(239, 185, 22), rgba(5, 77, 5, 0.59), rgb(239, 185, 22));
+
+}
+body {
+    background-color: var(--darkBg);
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;;
+}
+/*navbar*/
+i {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+/*movie cards*/
+#container {
+    display: flex;
+    justify-content: space-around;
+}
+.editMovie{
+    border: 2px solid rgba(5, 77, 5, 0.59);
+    padding: 15px;
+    border-radius: 5px;
+    background: var(--panelBg);
+}
+.posters {
+    padding: 10px 20px;
+    margin: 10px;
+    width: 340px;
+    height: auto;
+    border-radius: 5px;
+    background-color: var(--panelBg);
+}
+.row {
+    margin-right: 0!important;
+}
+.grow {
+    transition: all .3s ease-in-out;
+}
+.grow:hover {
+    transform: scale(1.05);
+}
+.title {
+   text-align: center;
+    margin: 0;
+}
+img {
+    width: 300px;
+    height: 445px;
+    padding-right: 5px;
+}
+.underImgContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.gradient-border {
+    --borderWidth: 3px;
+    background: #1D1F20;
+    position: relative;
+    border-radius: var(--borderWidth);
+}
+/*bottom menu*/
+.rating {
+    flex-direction: column;
+}
+.director {
+    flex-direction: column;
+}
+.genre {
+    text-align: center;
+    padding: 10px;
+}
+.description {
+    padding: 12px;
+    font-size: 110%;
+
+}
+.hidden1 {
+    display: none;
+}
+.rightSide {
+    float: right;
+}
+.btn {
+    margin: 10px;
+    background-color: #09090a;
+    color: whitesmoke;
+}
+.textBox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.select {
+    padding: 0 10px;
+    height: 38px;
+}
+.deleteGroup {
+    display: flex;
+    align-items: center;
+}
+#delete-movie {
+    margin: 0;
+    background-color: rgb(148, 0, 8);
+}
+
+
+@keyframes animatedgradient {
+    0% {
+        background-position: 0 100%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}

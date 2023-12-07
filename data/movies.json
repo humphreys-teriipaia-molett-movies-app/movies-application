@@ -1,9 +1,180 @@
-{
-  "movies": [
-    {
-      "id": 1,
-      "title": "Shrek",
-      "rating": 5
-    }
-  ]
-}
+  {
+    "movies": [
+         {
+        "id": 2,
+        "title": "The Shawshank Redemption",
+        "rating": 3.3,
+           "poster": "https://upload.wikimedia.org/wikipedia/en/8/81/ShawshankRedemptionMoviePoster.jpg",
+             "director": "Frank Darabont",
+             "genre": "Drama"
+      },
+      {
+        "id": 4,
+        "title": "The Matrix",
+        "rating": 4.9,
+          "poster": "https://upload.wikimedia.org/wikipedia/en/c/c1/The_Matrix_Poster.jpg",
+            "director": "The Wachowski Brothers",
+            "genre": "Action"
+      },
+        {
+            "id": 35,
+            "title": "The Matrix Reloaded",
+            "rating": 4.2,
+            "poster": "https://upload.wikimedia.org/wikipedia/en/b/ba/Poster_-_The_Matrix_Reloaded.jpg",
+            "director": "The Wachowski Brothers",
+            "genre": "Action"
+        },
+        {
+            "id": 36,
+            "title": "The Matrix Revolutions",
+            "rating": 4.1,
+            "poster": "https://upload.wikimedia.org/wikipedia/en/3/34/Matrix_revolutions_ver7.jpg",
+            "director": "The Wachowski Brothers",
+            "genre": "Action"
+        },
+      {
+        "id": 5,
+        "title": "Interstellar",
+        "rating": 4.5,
+          "poster": "https://upload.wikimedia.org/wikipedia/en/b/bc/Interstellar_film_poster.jpg",
+            "director": "Christopher Nolan",
+            "genre": "Sci-Fi"
+      },
+      {
+        "id": 6,
+        "title": "Toy Story",
+        "rating": 3.5,
+            "poster": "https://upload.wikimedia.org/wikipedia/en/1/13/Toy_Story.jpg",
+            "director": "John Lasseter",
+            "genre": "Animation"
+      },
+      {
+        "id": 8,
+        "title": "Forrest Gump",
+        "rating": 4.3,
+            "poster": "https://upload.wikimedia.org/wikipedia/en/6/67/Forrest_Gump_poster.jpg",
+            "director": "Robert Zemeckis",
+            "genre": "Drama"
+      },
+      {
+        "id": 9,
+        "title": "Pulp Fiction",
+        "rating": 4.7,
+            "poster": "https://upload.wikimedia.org/wikipedia/en/3/3b/Pulp_Fiction_%281994%29_poster.jpg"
+      },
+      {
+        "id": 10,
+        "title": "Fight Club",
+        "rating": 4.1,
+            "poster": "https://upload.wikimedia.org/wikipedia/en/f/fc/Fight_Club_poster.jpg"
+      },
+      {
+        "id": 11,
+        "title": "The Godfather",
+        "rating": 4.6,
+            "poster": "https://upload.wikimedia.org/wikipedia/en/1/1c/Godfather_ver1.jpg"
+      },
+      {
+        "id": 12,
+        "title": "Jurassic Park",
+        "rating": 3.9,
+            "poster": "https://upload.wikimedia.org/wikipedia/en/e/e7/Jurassic_Park_poster.jpg"
+      },
+      {
+        "id": 15,
+        "title": "Star Wars: A New Hope",
+        "rating": 4.0,
+            "poster": "https://upload.wikimedia.org/wikipedia/en/8/87/StarWarsMoviePoster1977.jpg"
+      },
+      {
+        "id": 16,
+        "title": "Back to the Future",
+        "rating": 4.2,
+            "poster": "https://upload.wikimedia.org/wikipedia/en/d/d2/Back_to_the_Future.jpg"
+      },
+      {
+        "id": 18,
+        "title": "The Lion King",
+        "rating": 4.5,
+            "poster": "https://upload.wikimedia.org/wikipedia/en/3/3d/The_Lion_King_poster.jpg"
+      },
+      {
+        "id": 19,
+        "title": "Saving Private Ryan",
+        "rating": 4.3,
+            "poster": "https://upload.wikimedia.org/wikipedia/en/a/ac/Saving_Private_Ryan_poster.jpg"
+      },
+      {
+        "id": 20,
+        "title": "Braveheart",
+        "rating": 3.6,
+            "poster": "https://upload.wikimedia.org/wikipedia/en/5/55/Braveheart_imp.jpg"
+      },
+      {
+        "id": 22,
+        "title": "Finding Nemo",
+        "rating": 3.7,
+            "poster": "https://upload.wikimedia.org/wikipedia/en/2/29/Finding_Nemo.jpg"
+      },
+      {
+        "id": 27,
+        "title": "The Sixth Sense",
+        "rating": 3.8,
+            "poster": "https://upload.wikimedia.org/wikipedia/en/a/a4/The_Sixth_Sense_poster.png"
+      },
+      {
+        "id": 28,
+        "title": "The Silence of the Lambs",
+        "rating": 4.4,
+            "poster": "https://upload.wikimedia.org/wikipedia/en/8/86/The_Silence_of_the_Lambs_poster.jpg"
+      },
+      {
+        "id": 29,
+        "title": "The Departed",
+        "rating": 4.0,
+            "poster": "https://upload.wikimedia.org/wikipedia/en/5/50/Departed234.jpg"
+      },
+      {
+        "id": 30,
+        "title": "The Prestige",
+        "rating": 4.5,
+            "poster": "https://upload.wikimedia.org/wikipedia/en/d/d2/Prestige_poster.jpg"
+      },
+      {
+        "id": 31,
+        "title": "The Dark Knight Rises",
+        "rating": 4.1,
+            "poster": "https://upload.wikimedia.org/wikipedia/en/8/83/Dark_knight_rises_poster.jpg"
+      },
+      {
+        "id": 34,
+        "title": "The Lion King",
+        "rating": 4.5,
+            "poster": "https://upload.wikimedia.org/wikipedia/en/3/3d/The_Lion_King_poster.jpg"
+      },
+      {
+        "id": 35,
+        "title": "The Matrix Reloaded",
+        "rating": 4.2,
+            "poster": "https://upload.wikimedia.org/wikipedia/en/b/ba/Poster_-_The_Matrix_Reloaded.jpg"
+      },
+      {
+        "id": 36,
+        "title": "The Matrix Revolutions",
+        "rating": 4.1,
+            "poster": "https://upload.wikimedia.org/wikipedia/en/3/34/Matrix_revolutions_ver7.jpg"
+      },
+      {
+        "id": 37,
+        "title": "The Sixth Sense",
+        "rating": 3.8,
+            "poster": "https://upload.wikimedia.org/wikipedia/en/a/a4/The_Sixth_Sense_poster.png"
+      },
+      {
+        "id": 38,
+        "title": "The Usual Suspects",
+        "rating": 4.0,
+            "poster": "https://upload.wikimedia.org/wikipedia/en/9/9c/Usual_suspects_ver1.jpg"
+      }
+    ]
+  }
