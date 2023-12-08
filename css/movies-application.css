@@ -16,6 +16,9 @@ body {
     font-family: 'Poppins', sans-serif;;
 }
 /*navbar*/
+.navbar {
+    background-color: var(--panelBg);
+}
 i {
     margin-left: 5px;
     margin-right: 5px;
@@ -73,17 +76,13 @@ img {
 .rating {
     flex-direction: column;
 }
-.director {
-    flex-direction: column;
-}
 .genre {
     text-align: center;
     padding: 10px;
 }
-.description {
-    padding: 12px;
-    font-size: 110%;
-
+#closeDeleteModal {
+    margin: 0;
+    text-align: right;
 }
 .hidden1 {
     display: none;

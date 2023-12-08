@@ -183,9 +183,9 @@
       "genre": "Suspense"
     },
     {
-      "title": "Shrek is stupid",
-      "genre": "stupid movie",
-      "poster": "../img/shrek.jpeg",
+      "title": "BC",
+      "genre": "Action",
+      "poster": "../img/notcoming.jpeg",
       "id": 37
     }
   ]

@@ -131,7 +131,7 @@ let movieArray = [];
                 title: $("#add-title").val(),
                 genre: $("#add-genre").val(),
                 rating: $("0").val(),
-                poster: '../img/shrek.jpeg'
+                poster: '../img/notcoming.jpeg'
 
             };
 
