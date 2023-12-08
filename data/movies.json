@@ -1,21 +1,21 @@
 {
   "movies": [
     {
-      "id": 2,
+      "id": 1,
       "title": "The Matrix",
       "rating": 4.9,
       "poster": "https://upload.wikimedia.org/wikipedia/en/c/c1/The_Matrix_Poster.jpg",
       "genre": "Action"
     },
     {
-      "id": 3,
+      "id": 2,
       "title": "The Matrix Reloaded",
       "rating": 4.2,
       "poster": "https://upload.wikimedia.org/wikipedia/en/b/ba/Poster_-_The_Matrix_Reloaded.jpg",
       "genre": "Action"
     },
     {
-      "id": 36,
+      "id": 3,
       "title": "The Matrix Revolutions",
       "rating": 4.1,
       "poster": "https://upload.wikimedia.org/wikipedia/en/3/34/Matrix_revolutions_ver7.jpg",
@@ -183,10 +183,10 @@
       "genre": "Suspense"
     },
     {
-      "title": "BC",
-      "genre": "Action",
-      "poster": "../img/notcoming.jpeg",
-      "id": 37
+      "id": 27,
+      "title": "Shrek is stupid",
+      "genre": "stupid movie",
+      "poster": "../img/notcoming.jpeg"
     }
   ]
 }

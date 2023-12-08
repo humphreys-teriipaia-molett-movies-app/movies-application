@@ -126,3 +126,20 @@ img {
         background-position: 0 50%;
     }
 }
+
+@keyframes spin {
+    from { transform: translate(-50%, -50%) rotate(0deg); }
+    to { transform: translate(-50%, -50%) rotate(360deg); }
+}
+.spinner {
+    border: 4px solid transparent;
+    border-top-color: #3498db; /* Blue spinner */
+    border-radius: 50%;
+    width: 8rem;
+    height: 8rem;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    animation: spin 1s linear infinite;
+}
