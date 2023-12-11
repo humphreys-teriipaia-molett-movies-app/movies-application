@@ -296,7 +296,7 @@ let movieArray = [];
 
             // Re-render the sorted movie cards
             let sortedHtmlStr = movieArray.map(movie => createMovieCard(movie)).join('');
-            sortedHtmlStr = `<div class="grid grid-cols-1 md:grid-cols-3 gap-4">${sortedHtmlStr}</div>`;
+            sortedHtmlStr = `<div class="movie-container grid grid-cols-1 md:grid-cols-3 gap-4">${sortedHtmlStr}</div>`;
             $("#container").html(sortedHtmlStr);
         };
 

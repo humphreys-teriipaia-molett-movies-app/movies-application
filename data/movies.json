@@ -181,13 +181,6 @@
       "rating": 4,
       "poster": "https://upload.wikimedia.org/wikipedia/en/9/9c/Usual_suspects_ver1.jpg",
       "genre": "Suspense"
-    },
-    {
-      "id": 27,
-      "title": "BC",
-      "genre": "Action",
-      "rating": "1",
-      "poster": "../img/notcoming.jpeg"
     }
   ]
 }
