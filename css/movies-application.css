@@ -14,10 +14,6 @@ body {
     color: whitesmoke;
     font-family: 'Poppins', sans-serif;
 }
-/*navbar*/
-.navbar {
-    background-color: var(--panelBg);
-}
 i {
     margin-left: 5px;
     margin-right: 5px;
@@ -27,27 +23,9 @@ i {
     display: flex;
     justify-content: space-around;
 }
-.btn {
-    margin: 10px;
-    background-color: #09090a;
-    color: whitesmoke;
-}
-.textBox {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
 .select {
     padding: 0 10px;
     height: 38px;
-}
-.deleteGroup {
-    display: flex;
-    align-items: center;
-}
-#delete-movie {
-    margin: 0;
-    background-color: rgb(148, 0, 8);
 }
 
 @keyframes spin {
