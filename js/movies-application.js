@@ -102,7 +102,7 @@ let movieArray = [];
         }
 
         // Open Add Movie Modal
-        $(document).on('click', '.new-movie', function(e) {
+        $(document).on('click', '.new-movie', function() {
             $("#addMovieModal").removeClass("hidden");
         });
 

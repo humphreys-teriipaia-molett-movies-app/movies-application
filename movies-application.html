@@ -23,7 +23,7 @@
             Clear
         </button>
         <div class="flex items-center">
-            <button id="new-movie" class="text-white bg-gray-600 px-4 py-2 rounded leading-tight focus:outline-none focus:shadow-outline mx-2" type="button">
+            <button class="new-movie text-white bg-gray-600 px-4 py-2 rounded leading-tight focus:outline-none focus:shadow-outline mx-2" type="button">
                 Add Movie
             </button>
             <!-- Dropdown for sorting -->
@@ -71,7 +71,13 @@
 
                         <div class="mt-4">
                             <label>Rating</label>
-                            <input type="text" id ="editMovieRating" class="text-gray-800 w-full p-2 border border-gray-300 rounded mt-1">
+                            <select id="editMovieRating" class="text-black w-full p-2 border border-gray-300 rounded mt-1" required>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </select>
                         </div>
 
                         <div class="mt-4">
@@ -112,10 +118,10 @@
     <div id="addMovieModal" class="hidden fixed inset-0 z-50 overflow-y-auto">
         <div class="flex items-center justify-center min-h-screen">
             <div class="bg-gray-700 rounded-lg w-1/2">
-                <div class="flex items-start p-4">
-                    <div class="flex items-center w-full">
+                <div class="flex flex-col p-4">
+                    <div class="flex items-start mb-4 w-full">
                         <div class="text-lg font-medium text-white">Add Movie</div>
-                        <div id="closeAddModal" class="ml-auto fill-current text-gray-700 w-6 h-6 cursor-pointer absolute top-0 right-0" >
+                        <div id="closeAddModal" class="ml-auto fill-current text-white w-6 h-6 cursor-pointer" >
                             <svg fill="#fff" width="30px" height="30px" viewBox="0 0 256 256" id="Flat" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M128,20.00012a108,108,0,1,0,108,108A108.12217,108.12217,0,0,0,128,20.00012Zm0,192a84,84,0,1,1,84-84A84.0953,84.0953,0,0,1,128,212.00012Zm40.48535-107.51465L144.9707,128.00012l23.51465,23.51465a12.0001,12.0001,0,0,1-16.9707,16.9707L128,144.97082l-23.51465,23.51465a12.0001,12.0001,0,0,1-16.9707-16.9707l23.51465-23.51465L87.51465,104.48547a12.0001,12.0001,0,0,1,16.9707-16.9707L128,111.02942l23.51465-23.51465a12.0001,12.0001,0,0,1,16.9707,16.9707Z"/>
                             </svg>
@@ -125,11 +131,21 @@
                         <!-- Form fields for adding a movie -->
                         <div class="mt-4">
                             <label>Title</label>
-                            <input type="text" id="add-title" class="text-black w-full p-2 border border-gray-300 rounded mt-1">
+                            <input type="text" id="add-title" class="text-black w-full p-2 border border-gray-300 rounded mt-1" required>
                         </div>
                         <div class="mt-4">
                             <label>Genre</label>
-                            <input type="text" id="add-genre" class="text-black w-full p-2 border border-gray-300 rounded mt-1">
+                            <input type="text" id="add-genre" class="text-black w-full p-2 border border-gray-300 rounded mt-1" required>
+                        </div>
+                        <div class="mt-4">
+                            <label>Rating</label>
+                            <select id="add-rating" class="text-black w-full p-2 border border-gray-300 rounded mt-1" required>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </select>
                         </div>
 
                         <div class="mt-4">
