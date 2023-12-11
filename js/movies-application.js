@@ -87,23 +87,22 @@ let movieArray = [];
             let hasHalfStar = rating % 1 !== 0; // Check if there is a decimal part
             // Create yellow stars for the full rating
             for (let i = 0; i < fullStars; i++) {
-                html += "<i class=\"fas fa-star\" style='color: yellow'></i>";
+                html += "<i class=\"fas fa-star text-yellow-300\"></i>";
             }
             // Add a half star if there's a decimal part
             if (hasHalfStar) {
-                html += "<i class=\"fas fa-star-half-alt\" style='color: yellow'></i>";
+                html += "<i class=\"fas fa-star-half-alt text-yellow-300\"></i>";
                 fullStars++; // Increment fullStars since we added a half star
             }
             // Create white stars for the remaining count up to 5
             for (let j = fullStars; j < 5; j++) {
-                html += "<i class=\"fas fa-star\" style='color: white'></i>";
+                html += "<i class=\"fas fa-star text-black\"></i>";
             }
             return html;
         }
 
         // Open Add Movie Modal
         $(document).on('click', '.new-movie', function(e) {
-            e.preventDefault(); // Prevent the default action of the anchor tag
             $("#addMovieModal").removeClass("hidden");
         });
 
@@ -174,7 +173,6 @@ let movieArray = [];
                 $("#editMovieTitle").val(movieToEdit.title);
                 $("#editMovieGenre").val(movieToEdit.genre);
                 $("#editMovieRating").val(movieToEdit.rating);
-                // Add other fields as necessary
             }
             $('#editModal').removeClass('hidden');
         });
@@ -188,7 +186,6 @@ let movieArray = [];
                 title: $("#editMovieTitle").val(),
                 genre: $("#editMovieGenre").val(),
                 rating: $("#editMovieRating").val(),
-                // Add other fields as necessary
             };
 
             fetch(`http://localhost:3000/movies/${movieId}`, {
@@ -302,7 +299,6 @@ let movieArray = [];
         };
 
         $(document).ready(function() {
-            // ...
 
             // Search functionality on input change
             $("#searchInput").on('input', function () {
@@ -324,8 +320,6 @@ let movieArray = [];
 
                 filterMovies(''); // Reset the filter to show all movies
             });
-
-            // ...
         });
 
         function unfilterMovies() {
@@ -340,7 +334,6 @@ let movieArray = [];
             let filteredMovies = movieArray.filter(movie =>
                 movie.title.toLowerCase().includes(searchTerm) || movie.genre.toLowerCase().includes(searchTerm)
             );
-
             // Re-render the filtered movie cards
             let filteredHtmlStr = filteredMovies.map(movie => createMovieCard(movie)).join('');
             if (filteredHtmlStr === '') {
@@ -350,7 +343,6 @@ let movieArray = [];
             }
             $("#container").html(filteredHtmlStr);
         }
-
     });
 })();
 

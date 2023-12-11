@@ -3,7 +3,7 @@
     {
       "id": 1,
       "title": "The Matrix",
-      "rating": 4.9,
+      "rating": "4.9",
       "poster": "https://upload.wikimedia.org/wikipedia/en/c/c1/The_Matrix_Poster.jpg",
       "genre": "Action"
     },
@@ -181,12 +181,6 @@
       "rating": 4,
       "poster": "https://upload.wikimedia.org/wikipedia/en/9/9c/Usual_suspects_ver1.jpg",
       "genre": "Suspense"
-    },
-    {
-      "id": 27,
-      "title": "Shrek is stupid",
-      "genre": "stupid movie",
-      "poster": "../img/notcoming.jpeg"
     }
   ]
 }
