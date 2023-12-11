@@ -68,7 +68,7 @@ let movieArray = [];
                     </div>
                 </div>`;
                         }
-                        htmlStr = `<div class="grid grid-cols-1 md:grid-cols-3 gap-4">${htmlStr}</div>`;
+                        htmlStr = `<div id="movie-container" class="grid grid-cols-1 md:grid-cols-3 gap-4">${htmlStr}</div>`;
                         $("#container").html(htmlStr);
                         $("#selectMenu").html("<option value='-1' selected>Select a movie</option>" + html);
                         $("#selectMenu2").html("<option value='-1' selected>Select a movie</option>" + html);
@@ -132,7 +132,7 @@ let movieArray = [];
                     $('#addMovieModal').addClass('hidden');
                     // Append the new movie card to the container
                     const newMovieCard = createMovieCard(newMovie); // You need to define this function
-                    $("#container").append(newMovieCard);
+                    $("#movie-container").append(newMovieCard);
                 })
                 .catch(error => console.log(error));
         });
