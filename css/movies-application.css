@@ -7,8 +7,7 @@ hr {
     margin: 0 0 4px 0;
     border : 0;
     height: 3px;
-    background-image: linear-gradient(to right, rgb(239, 185, 22), rgba(5, 77, 5, 0.59), rgb(239, 185, 22));
-
+    background-image: var(--panelBg);
 }
 body {
     background-color: var(--darkBg);
@@ -27,11 +26,6 @@ i {
 #container {
     display: flex;
     justify-content: space-around;
-}
-
-#closeDeleteModal {
-    margin: 0;
-    text-align: right;
 }
 .btn {
     margin: 10px;
